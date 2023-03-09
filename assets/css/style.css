@@ -8,7 +8,7 @@
     /* Paletas de Cores Neutral */
     --Very-pale-blue: hsl(225, 100%, 98%);
     --Desaturated-blue: hsl(224, 23%, 55%);
-    --ark-blue: hsl(223, 47%, 23%);
+    --Dark-blue: hsl(223, 47%, 23%);
 
     /* Font-Family */
     --Red-Hat-Display: 'Red Hat Display', sans-serif;
@@ -52,4 +52,22 @@ img {
     width: 452px;
     height: 480px;
     border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.titulo {
+    color: var(--Dark-blue);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.texto {
+    color: var(--Desaturated-blue);
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
