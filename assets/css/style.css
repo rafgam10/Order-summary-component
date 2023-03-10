@@ -43,7 +43,7 @@ header {
     height: 220px;
     width: 452px;
 }
-img {
+.wallpaper {
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -53,7 +53,6 @@ img {
     height: 480px;
     border-radius: 0px 0px 15px 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 0px;
@@ -63,11 +62,39 @@ img {
     color: var(--Dark-blue);
     font-weight: 700;
     font-size: 25px;
+    margin-top: 55px;
+    margin-bottom: 0px;
 }
 
 .texto {
     color: var(--Desaturated-blue);
     font-size: 14px;
-    margin-left: 100px;
-    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+
+.box {
+    height: 99px;
+    width: 354px;
+    background-color: var(--Desaturated-blue);
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-music {
+    background-color: var(--Very-pale-blue) ;
 }
