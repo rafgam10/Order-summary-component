@@ -80,7 +80,7 @@ header {
 .box {
     height: 99px;
     width: 354px;
-    background-color: var(--Desaturated-blue);
+    background-color: var(--Pale-blue);
     margin-top: 26px;
     display: flex;
     align-items: center;
@@ -96,5 +96,5 @@ header {
 }
 
 .icon-music {
-    background-color: var(--Very-pale-blue) ;
+    color: var(--Desaturated-blue);
 }
